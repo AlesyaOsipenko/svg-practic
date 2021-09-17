@@ -1,4 +1,4 @@
-svg {
+/* svg {
     border: 3px solid;
     margin: 10px;
     color: rgb(242, 236, 248) ;
@@ -21,5 +21,109 @@ circle:hover {
 polygon:hover {
 fill: rgb(85, 131, 67);
 cursor: pointer;
+} */
+
+/* .inner-text {
+    font-size: 0.4em;
+    line-height: 1;
+    transform: translateY(0.8em);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.loader {
+    transition: stroke-dasharray 2s linear;
+    cursor: pointer;
+}
+    .loader:hover {
+    stroke-dasharray: 60 40;
+    } */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400);
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.statistic{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.chart-text {
+    font: 16px "Montserrat", Arial, sans-serif;
+    fill: #000;
+    -moz-transform: translateY(0.25em);
+    -ms-transform: translateY(0.25em);
+    -webkit-transform: translateY(0.25em);
+    transform: translateY(0.25em);
+}
+
+.chart-number {
+    font-size: 0.4em;
+    text-anchor: middle;
+    -moz-transform: translateY(-0.60em);
+    -ms-transform: translateY(-0.60em);
+    -webkit-transform: translateY(-0.60em);
+    transform: translateY(-0.60em);
+    -o-transform: translateY(-0.60em);
+}
+
+.chart-label {
+    font-size: 0.2em;
+    text-transform: uppercase;
+    text-anchor: middle;
+    transform: translateY(0.10em);
+    -webkit-transform: translateY(0.10em);
+    -moz-transform: translateY(0.10em);
+    -ms-transform: translateY(0.10em);
+    -o-transform: translateY(0.10em);
+}
+
+.marker {
+    padding-bottom: 7px;
+    position: relative;
+    
+}
+
+.html::before {
+    color:#ce4b99;
+    content: "❤";
+    position: absolute;
+    left: -20px;
+    top:0;
+}
+
+.css::before {
+    color: #377bbc;
+    content: "❤";
+    position: absolute;
+    left: -20px;
+    top:0;
+}
+
+.svg::before {
+    color: #b1c94e;
+    content: "❤";
+    position: absolute;
+    left: -20px;
+    top:0;
 }
 

@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./normalize.css">
     <title>svg</title>
 </head>
 
 <body>
-    <svg width="210mm" height="297mm"
+    <!-- <svg width="210mm" height="297mm"
         style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
         viewBox="0 0 21000 29700" xmlns:xlink="http://www.w3.org/1999/xlink">
         <g id="map">
@@ -83,7 +84,55 @@
                 </a>
 
             </g>
+    </svg> -->
+
+    <!--part 2-->
+
+    <div class="statistic">
+    <svg width="350px" height="350px" viewBox="0 0 42 42" class="donut">
+        <title id="title">There are my knowledge about web technologies</title>
+        <desc> My knowledge of HTML is 40%, of CSS is 20% and of SVG is 30%”.</desc>
+        <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+        <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4"
+            stroke-width="3"></circle>
+        <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#ce4b99"
+            stroke-width="3" stroke-dasharray="40 60" stroke-dashoffset="25"></circle>
+        <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#b1c94e"
+            stroke-width="3" stroke-dasharray="20 80" stroke-dashoffset="85"></circle>
+        <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#377bbc"
+            stroke-width="3" stroke-dasharray="30 70" stroke-dashoffset="65"></circle>
+        <!-- unused 10% -->
+
+
+        <g class="chart-text">
+            <text x="50%" y="50%" class="chart-number">
+                Markup
+            </text>
+            <text x="50%" y="50%" class="chart-label">
+                I know
+            </text>
+        </g>
     </svg>
+
+    <!--legend-->
+
+    <figcaption class="figure-key">
+        <ul class="figure-key-list" aria-hidden="true" role="presentation">
+            <li class="marker html">
+                <span class="shape-circle shape-fuschia"></span> HTML
+            </li>
+            <li class="marker svg">
+                <span class="shape-circle shape-lemon-lime"></span> SVG
+            </li>
+            <li class="marker css">
+                <span class="shape-circle shape-blue"></span> CSS
+            </li>
+        </ul>
+    </figcaption>
+
+</div>
+
+
 
 
 </body>
