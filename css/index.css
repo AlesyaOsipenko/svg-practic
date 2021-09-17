@@ -1,0 +1,25 @@
+svg {
+    border: 3px solid;
+    margin: 10px;
+    color: rgb(242, 236, 248) ;
+}
+
+.str0 {
+    stroke:rgb(115, 248, 192);
+    stroke-width:76.36;
+    stroke-miterlimit:22.9256;
+}
+
+.fil0 {
+    fill:#eeeeee;
+}
+
+circle:hover {
+    fill: rgb(233, 222, 159);
+}
+
+polygon:hover {
+fill: rgb(85, 131, 67);
+cursor: pointer;
+}
+
