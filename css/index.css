@@ -127,3 +127,11 @@ body {
     top:0;
 }
 
+.other::before {
+    color: #fae790;
+    content: "❤";
+    position: absolute;
+    left: -20px;
+    top:0;
+}
+
