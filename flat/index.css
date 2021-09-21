@@ -1,0 +1,52 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: cadetblue;
+}
+
+.img-svg {
+    position: relative;
+}
+
+.svg-plan {
+    position: absolute;
+    top: 27px;
+    left: 135px;
+}
+
+.bathroom {
+    fill:cornflowerblue;
+    fill-opacity: 0;
+}
+
+.living-room {
+    fill:rgb(170, 233, 161);
+    fill-opacity: 0;
+}
+
+.vestibule {
+    fill:rgb(218, 182, 25);
+    fill-opacity: 0; 
+}
+
+.bedroom {
+    fill:rgb(25, 218, 144);
+    fill-opacity: 0;  
+}
+
+.kitchen {
+    fill:rgb(224, 64, 245);
+    fill-opacity: 0;  
+}
+
+.bathroom:hover,
+.living-room:hover,
+.vestibule:hover,
+.bedroom:hover,
+.kitchen:hover {
+    fill-opacity: 0.5;
+    cursor: pointer;
+    
+}
